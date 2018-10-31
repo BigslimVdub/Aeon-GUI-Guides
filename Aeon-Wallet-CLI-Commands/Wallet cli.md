@@ -4,7 +4,7 @@ Aeon-Wallet-CLI needs to connect to an Aeon daemon to work correctly, either rem
 This file is for listing all the commands of the Aeon wallet cli and what they are for. Section 1 is for running the wallet 
 file via terminal or command prompt. Section 2 is for operational uses of the wallet-cli once connected and synced to a daemon.
 
-## Section 1 : Commands for opening and running the CLI wallet
+## Section 1 : Commands for opening the CLI wallet
 
 
 ## Running Aeon-Wallet-CLI:
@@ -17,7 +17,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   
   You may get this warning message when connecting to public nodes: 
   
-  ```Warning: using an untrusted daemon at 192.168.1.7:11181, privacy will be lessened```
+  ```Warning: using an untrusted daemon at 139.59.59.176:11181, privacy will be lessened```
   
 
 ## General options:
@@ -34,19 +34,19 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
 ## Wallet options:
 
   `--daemon-address arg`                  
-  Use daemon instance at <host>:<port>
+  Use daemon instance at host:port , enter `--daemon-address 139.99.195.96:11181`
   
   `--daemon-host arg`                     
-  Use daemon instance at host <arg> instead of localhost
+  Use daemon instance at host arg instead of localhost
                                           
   `--password arg`                        
-  Wallet password (escape/quote as needed) 
+  Open wallet without the enter password screen , enter `--password "your password no quotes" `
                                           
   `--password-file arg`                   
   Wallet password file
   
   `--daemon-port arg (=0)`                
-  Use daemon instance at port <arg> instead of 11181
+  Use daemon instance at port entered instead of 11181, enter `--daemon-port 12345`
                                           
   `--daemon-login arg`                   
   Specify username[:password] for daemon RPC client
