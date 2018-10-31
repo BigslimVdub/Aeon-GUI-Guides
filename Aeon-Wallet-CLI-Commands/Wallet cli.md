@@ -10,6 +10,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
 ## Running Aeon-Wallet-CLI:
 
   aeon-wallet-cli [--wallet-file=<file>|--generate-new-wallet=<file>] [<COMMAND>]
+  
   Example, if you want to run your cli wallet on a Public node (or a local node on your own network) you would need to CD 
   to the folder with Aeon-wallet-cli and run this command:
   
@@ -34,41 +35,41 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
 ## Wallet options:
 
   `--daemon-address arg`                  
-  Use daemon instance at host:port , enter `--daemon-address 139.99.195.96:11181`
+  Use daemon instance at host:port , example enter `--daemon-address 139.99.195.96:11181`
   
   `--daemon-host arg`                     
   Use daemon instance at host arg instead of localhost
                                           
   `--password arg`                        
-  Open wallet without the enter password screen , enter `--password "your password no quotes" `
+  Open wallet without the enter password screen , example enter `--password "your password no quotes" `
                                           
   `--password-file arg`                   
   Wallet password file
   
   `--daemon-port arg (=0)`                
-  Use daemon instance at port entered instead of 11181, enter `--daemon-port 12345`
+  Use daemon instance at port entered instead of 11181, example enter `--daemon-port 12345`
                                           
   `--daemon-login arg`                   
-  Specify username[:password] for daemon RPC client
+  Specify username[:password] for daemon RPC client, example enter `--daemon-login user1:1234pass`
                                           
   `--testnet`                             
-  Use cli wallet for testnet only. Daemon must also be launched with --testnet flag
+  Use cli wallet for testnet only. Daemon must also be launched with --testnet flag, example enter `aeon-wallet-cli --testnet`
                                           
   `--stagenet`                            
-  Use cli wallet for stagenet. Daemon must also be launched with --stagenet flag
+  Use cli wallet for stagenet. Daemon must also be launched with --stagenet flag, example enter `aeon-wallet-cli --stagenet`
                                           
   `--restricted-rpc`                      
   Restricts to view-only commands (USE this if running a public node!!!)
   
   `--shared-ringdb-dir arg` 
-  (=/Users/jason/.shared-ringdb, /Users/jason/.shared-ringdb/testnet if 'testnet', 
-  /Users/jason/.shared-ringdb/stagenet if 'stagenet') Set shared ring database path
+  (=/Users/user1/.shared-ringdb, /Users/user1/.shared-ringdb/testnet if 'testnet', 
+  /Users/user1/.shared-ringdb/stagenet if 'stagenet') Set shared ring database path on your computer
   
   `--wallet-file arg`                     
-  Use wallet file name <arg>
+  Use wallet file name, example enter `aeon-wallet-cli --wallet-file MyAeonWallet` 
   
   `--generate-new-wallet arg`             
-  Generate new wallet and save it to <Arg>
+  Generate new wallet and save it to file path you enter
                                      
   `--generate-from-view-key arg`          
   Generate incoming-only wallet from view key
