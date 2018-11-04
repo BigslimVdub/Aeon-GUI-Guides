@@ -27,7 +27,10 @@ This Repository is to hold informational how-to's and usability of Aeon Projects
 
 ## Thanks to our contributors
 
-* [r/BigSlimVdub](https://www.reddit.com/user/bigslimvdub)
+* [r/BigSlimVdub](https://www.reddit.com/user/bigslimvdub) 
+Donations accepted but not requested: 
+XnYENa7emJ5LAxmBtMSu9K8F17m9z7b54Kao1cUyZfKM6He3rDZQuabY9n5whSFwrd7KiJyoiqnWZ3s7xjQBuAou2dWnif3LB
+
 * [r/thriftyminnow](https://www.reddit.com/user/thriftyminnow)
 
 ## Ways to connect with the Aeon Community
