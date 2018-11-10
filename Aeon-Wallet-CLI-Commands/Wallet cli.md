@@ -36,6 +36,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
 
   `--daemon-address arg`                  
   Use daemon instance at host:port , example enter 
+  
   `--daemon-address 139.99.195.96:11181`
   
   `--daemon-host arg`                     
@@ -43,6 +44,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
                                           
   `--password arg`                        
   Open wallet without the enter password screen 
+  
   Example `--password "your password no quotes" `
                                           
   `--password-file arg`                   
@@ -50,18 +52,22 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   
   `--daemon-port arg (=0)`                
   Use daemon instance at port entered instead of 11181, example enter 
+  
   Example `--daemon-port 12345`
                                           
   `--daemon-login arg`                   
-  Specify username[:password] for daemon RPC client, example enter 
+  Specify username[:password] for daemon RPC client
+  
   Example `--daemon-login user1:1234pass`
                                           
   `--testnet`                             
   Use cli wallet for testnet only. Daemon must also be launched with --testnet flag
+  
   Example enter `aeon-wallet-cli --testnet`
                                           
   `--stagenet`                            
   Use cli wallet for stagenet. Daemon must also be launched with --stagenet flag 
+  
   Example enter `aeon-wallet-cli --stagenet`
                                           
   `--restricted-rpc`                      
@@ -73,25 +79,30 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   
   `--wallet-file arg`                     
   Use wallet file name, example enter `aeon-wallet-cli --wallet-file MyAeonWallet` 
-  Note that you may also need to add the full file path to the wallet file location ex 
-  `aeon-wallet-cli --wallet-file /applications/aeonwallets/MyAeonWallet` on osx.
+  Note that you may also need to add the full file path to the wallet file location
+ 
+  Example `aeon-wallet-cli --wallet-file /applications/aeonwallets/MyAeonWallet` on osx.
   
   `--generate-new-wallet arg`             
   Use this command to generate new wallet and save it to file path you enter upon opening the cli
+  
   Example `aeon-wallet-cli --generate-new-wallet /Applications/aeon/MyAeonWallet`
                                      
   `--generate-from-view-key arg`          
   Use this command to generate incoming-only wallet from view key. This is used with your
   private view key and wallet address to confirm funds only.
+  
   Example `aeon-wallet-cli --generate-from-view-key MyViewOnlyAeonWallet`
                                         
   `--generate-from-spend-key arg`         
   Generate deterministic wallet from spend key
+  
   Example `aeon-wallet-cli --generate-from-spend-key MyNewAeonwallet`
   
   `--generate-from-keys arg`              
   Generate a new wallet from private keys. You will be asked for your public address, spend key, 
   and view key, followed by a new password for the new wallet.
+  
   Example `aeon-wallet-cli --generate-from-keys MyNewWalletfromKeys`
   
   `--generate-from-multisig-keys arg`     
@@ -102,6 +113,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   
   `--mnemonic-language arg`               
   Language for mnemonic seed entry on wallet restore. Enter language used here
+  
   Example `aeon-wallet-cli --generate-from-keys --mnemonic-language french`
   
   `--command arg`
@@ -109,6 +121,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   
   `--restore-deterministic-wallet`        
   Create a new wallet file with your 24 or 25 word seed you stored from original wallet creation 
+  
   Example `aeon-wallet-cli --restore-deterministic-wallet`
   
   `--restore-multisig-wallet`             
@@ -123,6 +136,7 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   `--trusted-daemon`                      
   Enable commands which rely on a trusted daemon (use this to remove the trusted daemon warning only when
   you know the operator of the daemon)
+  
   Example `aeon-wallet-cli --daemon-address 192.168.1.3:11181 --trusted-daemon`
                                           
   `--untrusted-daemon`                    
@@ -131,11 +145,13 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   `--allow-mismatched-daemon-version`     
   Allow communicating with a daemon that uses a different RPC version (not really recommended). This may cause 
   issues if there are compatibility changes between wallets and daemons. 
+  
   Example `aeon-wallet-cli --allow-mismatched-daemon-version`
                                           
   `--restore-height arg (=0)`             
   Restore from specific blockchain height when creating a wallet or restoring a wallet. If you created your
   wallet at height 901000, you don't really need to verify blocks for your wallet before that.
+  
   Example `aeon-wallet-cli --restore-from-keys --restore-height 900000`
   
   `--do-not-relay`                        
