@@ -158,36 +158,47 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
   The newly created transaction will not be relayed to the Aeon network
                                           
   `--create-address-file`                 
-  Create an address file for new wallets
+  Create an address file for new wallets and their information
   
   `--subaddress-lookahead arg`            
   Set subaddress lookahead sizes to <major>:<minor> 
                                           
   `--use-english-language-names`          
-  Display English language names
+  Display English language names of avaialble cli languages
   
   `--log-file arg`                        
   Specify log file name
   
+  Example `aeon-wallet-cli --log-file Aeon Lifestyle Log`
+  
   `--log-level arg`                       
-  0-4 or categories
+  0-4 or categories, 0 meaning no logging, 4 meaning every letter is posted in the log file.
   
   `--max-log-file-size arg (=104850000)`  
-  Specify maximum log file size [B]
+  Specify maximum log file size Bytes.
+  
+  Example `aeon-wallet-cli --max-log-file-size 1000` for 1MB log file size max.
   
   `--max-log-files arg (=50)`             
-  Specify maximum number of rotated log files to be saved (no limit by setting to 0) 
+  Specify maximum number of rotated log files to be saved (no limit by setting to 0).
+  
+  Example `aeon-wallet-cli --max-log-files 10` to have maximum of 10 log files for wallet cli where after 10 files
+  are created, the 1st is deleted when a new log file is made.
                                           
   `--max-concurrency arg (=1)`           
-  Max number of threads to use for a parallel job
-                                          
+  Max number of threads to use for a parallel job. This can be used to use more cores/threads for better function. 
+ 
+ Example `aeon-wallet-cli --max-concurrency 3` 
+ 
   `--config-file arg`                     
-  Config file
+  Config file to be loaded for aeon-wallet-cli
   
   
   ### Section 2 : Synced wallet commands
   
   ## Account related commands:
+  
+  TO-DO: 
   
     ```
     account new <label text with white spaces allowed>
@@ -199,6 +210,8 @@ file via terminal or command prompt. Section 2 is for operational uses of the wa
     ```
     
   ## Standard commands:
+  
+  TO-DO:
   
  ```
   address [ new <label text with white spaces allowed> | all | <index_min> [<index_max>] | label <index> <label text with white spaces allowed>]
