@@ -21,6 +21,12 @@ This Repository is to hold informational how-to's and usability of Aeon Projects
 
 * How to ............
 
+## Aeon CLI and AeonD Daemon Usage
+
+* [Aeon CLI  Commands](https://github.com/BigslimVdub/Aeon-Guides/blob/master/Aeon-Wallet-CLI-Commands/Wallet%20cli.md)
+
+* [Aeon Daemon Commands](https://github.com/BigslimVdub/Aeon-Guides/blob/master/Aeon-Daemon-Commands/Daemon%20commands.md)
+
 ## How to Contribute to Aeon Guides
 
 * Fork and add your contributions and create a pull request. 
