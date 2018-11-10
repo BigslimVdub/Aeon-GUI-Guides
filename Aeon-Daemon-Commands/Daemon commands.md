@@ -8,6 +8,8 @@ aeond.exe --rpc-bind-ip 0.0.0.0 --confirm-external-bind --restricted-rpc --data-
 
 ## Section 1: Running AeonD with terminal/CMD prompt:
 
+TO-DO:
+
 ```
 Aeon 'Sophia' (v0.12.6.0-master-release)
 
@@ -143,52 +145,98 @@ Settings:
 
 ## Section 2: Basic Daemon commands
 
+TO-DO:
+
 ```
-Aeon 'Sophia' (v0.12.6.0-master-release)
+From Aeon 'Sophia' (v0.12.6.0-master-release)
+
 Commands:
+
   alt_chain_info
+  
   ban <IP> [<seconds>]
+  
   bans
+  
   bc_dyn_stats <last_block_count>
-  diff
-  exit
+  
+  diff - Shows current difficulty of blockchain
+  
+  exit - saves blockchain and closes daemon safely
+  
   flush_txpool [<txid>]
+  
   hard_fork_info
-  help [<command>]
+  
+  help [<command>] - shows this help menu or help with a specific command ( help bans )
+  
   hide_hr
-  in_peers <max_number>
+  
+  in_peers <max_number> - limits amount of in peer connections example ( in_peers 10 ) limits to 10 in peers
+  
   is_key_image_spent <key_image>
-  limit [<kB/s>]
-  limit_down [<kB/s>]
-  limit_up [<kB/s>]
-  out_peers <max_number>
+  
+  limit [<kB/s>] limit total kb/s bandwidth usage of daemon
+  
+  limit_down [<kB/s>] - limits download bandwidth to specified kb/s
+  
+  limit_up [<kB/s>] - limits upload bandwidth to specified kb/s  
+  
+  out_peers <max_number> - limits number of out peer connections of daemon 
+  
   output_histogram [@<amount>] <min_count> [<max_count>]
+  
   print_bc <begin_height> [<end_height>]
+  
   print_block <block_hash> | <block_height>
+  
   print_cn
+  
   print_coinbase_tx_sum <start_height> [<block_count>]
-  print_height
+  
+  print_height - show current blockchain height
+  
   print_pl
+  
   print_pl_stats
+  
   print_pool
+  
   print_pool_sh
+  
   print_pool_stats
+  
   print_status
+  
   print_tx <transaction_hash> [+hex] [+json]
+  
   relay_tx <txid>
-  save
+  
+  save - saves blockchain file
+  
   set_log <level>|<{+,-,}categories>
-  show_hr
+  
+  show_hr - shows daemon mining hashrate
+  
   start_mining <addr> [<threads>] [do_background_mining] [ignore_battery]
+  
   start_save_graph
-  status
-  stop_daemon
-  stop_mining
+  
+  status - shows daemon connection status
+  
+  stop_daemon - stops daemon connection with network
+  
+  stop_mining - stops daemon mining
+  
   stop_save_graph
+  
   sync_info
-  unban <IP>
+  
+  unban <IP> - unbans specified ip address for daemon sync
+  
   update (check|download)
-  version
+  
+  version - shows daemon version
   ```
   
  
