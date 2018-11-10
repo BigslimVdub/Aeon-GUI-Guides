@@ -1,5 +1,5 @@
 ### Aeon-GUI-Guides
-This Repository is to hold informational how-to's and usability of Aeon Projects including but not limited to the Aeon-GUI wallet software. This is an Open-Source guide and anyone can contribute through Pull requests for addition of their guides. 
+This Repository is to hold informational how-to's and usability of Aeon Projects including but not limited to the Aeon-GUI wallet software. This is an Open-Source guide and anyone can contribute through pull requests for addition of their guides. 
 
 ## How-To's
 ---------------------------------------------------------------------------------------
@@ -38,4 +38,5 @@ XnYENa7emJ5LAxmBtMSu9K8F17m9z7b54Kao1cUyZfKM6He3rDZQuabY9n5whSFwrd7KiJyoiqnWZ3s7
 * [Discord](https://discord.gg/hCbaJ6e)
 * [Reddit](https://www.reddit.com/r/Aeon/)
 * [Medium](https://medium.com/@AEON_Community)
-
+* [BitcoinTalk](https://bitcointalk.org/index.php?topic=641696.0)
+* [Twitter](https://twitter.com/AeonCoin)
