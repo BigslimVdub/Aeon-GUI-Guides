@@ -37,7 +37,7 @@ This Repository is to hold informational how-to's and usability of Aeon Projects
 Donations accepted but not requested: 
 XnYENa7emJ5LAxmBtMSu9K8F17m9z7b54Kao1cUyZfKM6He3rDZQuabY9n5whSFwrd7KiJyoiqnWZ3s7xjQBuAou2dWnif3LB
 
-* [r/thriftyminnow](https://www.reddit.com/user/thriftyminnow)
+* [r/thriftyminnow](https://www.reddit.com/user/thriftyminnow) , [github page](https://thriftyminnow.github.io/aeon-coin-info/)
 
 ## Ways to connect with the Aeon Community
 
