@@ -33,7 +33,7 @@ This repository is to hold informational how-to's and usability of Aeon projects
 
 ## How to Contribute to Aeon Guides
 
-* Fork and add your contributions and create a pull request. 
+* [Fork and add your contributions and create a pull request](https://github.com/BigslimVdub/Aeon-Guides/pulls)
 
 ## Thanks to our contributors
 
