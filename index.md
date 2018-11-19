@@ -1,5 +1,5 @@
 ### Aeon-GUI-Guides
-This Repository is to hold informational how-to's and usability of Aeon Projects including but not limited to the Aeon-GUI wallet software. This is an Open-Source guide and anyone can contribute through pull requests for addition of their guides. 
+This repository is to hold informational how-to's and usability of Aeon projects including but not limited to the Aeon-GUI and Aeon CLI wallet software. This is an Open-Source guide and anyone can contribute through pull requests for addition of their guides. 
 
 ## How-To's
 ---------------------------------------------------------------------------------------
