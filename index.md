@@ -31,6 +31,10 @@ This repository is to hold informational how-to's and usability of Aeon projects
 
 * [Aeon Daemon Commands](https://github.com/BigslimVdub/Aeon-Guides/blob/master/Aeon-Daemon-Commands/Daemon%20commands.md)
 
+## Aeon WhitePaper
+
+* [Unofficial Official Aeon WhitePaper](https://github.com/thriftyMinnow/aeon-whitepaper/blob/master/aeon-whitepaper.pdf)  Props to ThriftyMinnow!
+
 ## How to Contribute to Aeon Guides
 
 * [Fork and add your contributions and create a pull request](https://github.com/BigslimVdub/Aeon-Guides/pulls)
